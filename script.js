@@ -20,7 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = 'Anh hông ngờ tới luôn đó, iu em lắm luônnn:3';
+    document.getElementById('messageContainer').innerHTML = 'Anh hông ngờ tới luôn đó:3';
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
@@ -67,7 +67,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         case 1:
             // Segunda vez haciendo clic en "No"
 
-            document.getElementById('noBtn').innerHTML = 'Anh hứa sẽ iuu bé suốt đời đó';
+            document.getElementById('noBtn').innerHTML = 'Cho anh cơ hội đii mầ';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer').style.display = 'none';
             document.getElementById('sadGifContainer2').style.display = 'block';
@@ -81,7 +81,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
         case 2:
            
-            document.getElementById('noBtn').innerHTML = 'iuu em hết mực nữaaaa';
+            document.getElementById('noBtn').innerHTML = 'Thật sự em không đồng ý saooo?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer').style.display = 'none';
             document.getElementById('sadGifContainer2').style.display = 'none';
@@ -174,7 +174,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
         case 10:
            
-            document.getElementById('noBtn').innerHTML = 'hãy chấp nhận tình iuu của anhh nhóo';
+            document.getElementById('noBtn').innerHTML = 'Thật sự em không đồng ý saooo?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
          
@@ -185,7 +185,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 11:
            
-            document.getElementById('noBtn').innerHTML = 'Anhh thật sự rất và rất iuu em đó';
+            document.getElementById('noBtn').innerHTML = 'Đừng bỏ rơi anh màaaaa';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             document.getElementById('siBtn').style.fontSize = '200px';

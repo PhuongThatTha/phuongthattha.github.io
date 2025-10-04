@@ -20,7 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = 'Anh hông ngờ tới luôn đó, gớt nước mắt luônnnn:3';
+    document.getElementById('messageContainer').innerHTML = 'Hehe, anh biết bé Thư sẽ đồng ý mò, chụp màn hình gửi kết quả sang mess cho a biết nhó';
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
@@ -261,5 +261,6 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
     }
 });
+
 
 
